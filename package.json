@@ -1,0 +1,17 @@
+{
+  "name": "csv-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-csv": "node index.js",
+    "upload-ucare": "node upload-ucare.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash": "^4.17.15",
+    "uploadcare": "^0.4.5"
+  }
+}
